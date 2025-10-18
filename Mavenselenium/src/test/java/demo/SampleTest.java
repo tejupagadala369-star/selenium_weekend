@@ -6,6 +6,9 @@ import org.testng.annotations.Test;
 public class SampleTest {
   @Test
   public void launch() {
-	  Reporter.log("sample test is executed",true);
+	  Reporter.log("sample test is executing",true);
+
+	  Reporter.log("sample executed",true);
   }
 }
+
